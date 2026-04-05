@@ -152,6 +152,9 @@ namespace storage
 	/** Linux Root Partition (aarch64), only for GPT. Requires SUSE parted 3.5 or higher. */
 	ID_LINUX_ROOT_AARCH64,
 
+	/** Linux Root Partition (loongarch64), only for GPT. Requires SUSE parted 3.5 or higher. */
+	ID_LINUX_ROOT_LOONGARCH64,
+
 	/** Linux Root Partition (ppc), only for GPT. Requires SUSE parted 3.5 or higher. */
 	ID_LINUX_ROOT_PPC32,
 
@@ -181,6 +184,9 @@ namespace storage
 
 	/** Linux USR Partition (arm), only for GPT. Requires SUSE parted 3.5 or higher. */
 	ID_LINUX_USR_ARM,
+
+	/** Linux USR Partition (loongarch64), only for GPT. Requires SUSE parted 3.5 or higher. */
+	ID_LINUX_USR_LOONGARCH64,
 
 	/** Linux USR Partition (aarch64), only for GPT. Requires SUSE parted 3.5 or higher. */
 	ID_LINUX_USR_AARCH64,

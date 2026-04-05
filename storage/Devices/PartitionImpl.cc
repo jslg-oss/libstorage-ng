@@ -1758,6 +1758,10 @@ namespace storage
 		// TRANSLATORS: name of partition type
 		return _("Linux Root Partition (ARM 64-bit)");
 
+	    case ID_LINUX_ROOT_LOONGARCH64:
+		// TRANSLATORS: name of partition type
+		return _("Linux Root Partition (LoongArch 64-bit)");
+
 	    case ID_LINUX_ROOT_PPC32:
 		// TRANSLATORS: name of partition type
 		return _("Linux Root Partition (PPC 32-bit)");
@@ -1801,6 +1805,10 @@ namespace storage
 	    case ID_LINUX_USR_AARCH64:
 		// TRANSLATORS: name of partition type
 		return _("Linux USR Partition (ARM 64-bit)");
+
+	    case ID_LINUX_USR_LOONGARCH64:
+		// TRANSLATORS: name of partition type
+		return _("Linux USR Partition (LoongArch 64-bit)");
 
 	    case ID_LINUX_USR_PPC32:
 		// TRANSLATORS: name of partition type
